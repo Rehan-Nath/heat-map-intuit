@@ -7,6 +7,7 @@ dash_mantine_components==2.0.0
 Flask==3.0.3
 geographiclib==2.0
 geopy==2.4.1
+gunicorn==23.0.0
 h3==4.3.0
 idna==3.10
 importlib_metadata==8.7.0
