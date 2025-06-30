@@ -3,4 +3,4 @@ services:
     name: dash-map-app
     env: python
     buildCommand: ""
-    startCommand: gunicorn app:app.server
+    startCommand: gunicorn your_app:app.server
