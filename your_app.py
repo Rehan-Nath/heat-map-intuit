@@ -12,6 +12,7 @@ df["dayName"] = df["datetime"].dt.day_name()
 
 
 app = Dash(__name__)
+server = app.server
 app.layout = html.Div([
     html.Div([
         html.Div([
